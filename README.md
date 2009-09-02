@@ -27,3 +27,14 @@ ZebraTable can be initialized at any time but is generally initialized at the to
 	
 
 For specific usage and options, please read the documentation or visit http://davidwalsh.name/mootools-zebra-table-plugin
+
+Options
+-------
+
+All options have default values assigned.
+
+* **elements** - (*array*)  The table elements to zebra-ize.
+* **cssEven** - (*string*)  The CSS class for "even" rows.
+* **cssOdd** - (*string*)  The CSS class for "odd" rows.
+* **cssHighlight** - (*string*)  The CSS class for "highlighted" (clicked) rows.
+* **cssMouseEnter** - (*string*)  The CSS class for hovered rows.

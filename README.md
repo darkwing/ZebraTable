@@ -26,4 +26,4 @@ ZebraTable can be initialized at any time but is generally initialized at the to
 	});
 	
 
-For specific usage and options, please read the documentation or visit http://davidwalsh.name/mootools-zebra-table-plugin
+For specific usage and options, please read the documentation or visit http://davidwalsh.name/js/zebra-table

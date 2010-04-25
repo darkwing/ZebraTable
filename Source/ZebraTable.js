@@ -47,7 +47,7 @@ var ZebraTable = new Class({
 				if not, move on */
 			if(tr.getFirst().get('tag') != 'th') {
 				/* set the class for this based on odd/even */
-				var self = this, klass = i % 2 ? self.options.even : self.options.odd;
+				var self = this, klass = i % 2 ? self.options.cssEven : self.options.cssOdd;
 				/* start the events! */
 				tr.addClass(klass).addEvents({
 					/* mouseenter */
